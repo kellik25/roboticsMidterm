@@ -35,6 +35,8 @@ and kept secret when sharing the code with others. The code should also be modif
 specific sites. 
 
 Special thanks to:
+
   SunFounder (https://docs.sunfounder.com/projects/thales-kit/en/latest/micropython/thermometer.html) for code on converting thermistor resistance values to temperature values.
+  
   https://www.timpoulsen.com/2018/finding-the-dominant-colors-of-an-image.html for code on how to get the average values of colors within an image.
   
