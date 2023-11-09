@@ -1,7 +1,7 @@
 import numpy as np
 import requests
 
-#token removed for security purposes
+#airtable token removed for security purposes
 Token_SECRET = ""
 
 #initialize airTable
