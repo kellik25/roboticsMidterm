@@ -7,7 +7,7 @@ PyScript:
   This program is responsible for the image processing aspect. It takes in an image snapshot and determines the color of the largest object in the image between red and green. 
   From there it, posts the information to the color to Airtable in the imageTable using RestAPI.
   
-  The code from this file can copied to replace the code in the REPL of the following link [and](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image must first be 
+  The code from this file can copied to replace the code in the REPL of the following link [Camera/Airtable](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image must first be 
   taken and then the code can be run using control return. 
 
 gamepad.py:
