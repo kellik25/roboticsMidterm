@@ -7,7 +7,7 @@ PyScript:
   This program is responsible for the image processing aspect. It takes in an image snapshot and determines the color of the largest object in the image between red and green. 
   From there it, posts the information to the color to Airtable in the imageTable using RestAPI.
   
-  The code from this file can copied to replace the code in the REPL of the following link [Camera/Airtable](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image must first be 
+  The code from this file can copied to replace the code in the REPL of the following link [Camera/PyScrypt](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image must first be 
   taken and then the code can be run using control return. 
 
 gamepad.py:
@@ -36,7 +36,9 @@ specific sites.
 
 Special thanks to:
 
-  SunFounder (https://docs.sunfounder.com/projects/thales-kit/en/latest/micropython/thermometer.html) for code on converting thermistor resistance values to temperature values.
+  SunFounder (https://docs.sunfounder.com/projects/thales-kit/en/latest/micropython/thermometer.html) for code on converting thermistor 
+  resistance values to temperature values.
   
-  https://www.timpoulsen.com/2018/finding-the-dominant-colors-of-an-image.html for code on how to get the average values of colors within an image.
+  Time Poulsen (https://www.timpoulsen.com/2018/finding-the-dominant-colors-of-an-image.html) for code on how to get the average values 
+  of colors within an image.
   
