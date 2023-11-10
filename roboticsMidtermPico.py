@@ -9,11 +9,11 @@ import mqtt
 #initalize gamepad
 gamepad.digital_setup()
 
-#move all of this to a secrets file or just comment out
-adafruit_USER = "kkowalick25"
-adafruit_KEY = "aio_radk08BuCxIyfdlih7ndr6zvRzh2"
-Token_ID = "patqZmgFyuaf4TXNe"
-Token_SECRET = "patqZmgFyuaf4TXNe.426312d34bf83c18ea9d85a4f0819cb9d4ed3bad5b63f82f4a1278fd3762aab9"
+#commented out for security reasons
+adafruit_USER = ""
+adafruit_KEY = ""
+Token_ID = ""
+Token_SECRET = ""
 
 #initalize Adafruit Dashboard
 url = 'https://io.adafruit.com/api/v2/%s/feeds' % adafruit_USER
