@@ -5,10 +5,10 @@ To implement the project, the four following scripts are needed:
 
 PyScript:
   This program is responsible for the image processing aspect. It takes in an image snapshot and determines the color of the largest object in the image between red and green. 
-  From there it, posts the information to the color to Airtable in the imageTable using RestAPI.
+  From there it, posts the color to Airtable in the imageTable using RestAPI.
   
-  The code from this file can copied to replace the code in the REPL of the following link [Camera/PyScrypt](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image must first be 
-  taken and then the code can be run using control return. 
+  The code from this file can copied to replace the code in the REPL of the following link [Camera/PyScrypt](https://chrisrogers.pyscriptapps.com/me35-midterm/latest/). An image 
+  must first be taken and then the code can be run using control return. 
 
 gamepad.py:
   This is a library used to read in movements on the gamepad written by Phila and Jordan during the "Talking in Sentences" project. This script also requires the additional 
@@ -27,7 +27,7 @@ roboticsMidtermPico.py
   LEDS shutdown when the "B" button is pushed. The program outputs these readings in celsius or farenheit dependent on the color it reads in from the Airtable through RestAPI. The
   program also toggles an on and off switch on the Adafruit Dashboard when the "X" and "B" buttons are pressed. 
 
-NOTE: In order to run the following to scripts at the same time, they must be run on different applications since one is run on micropython and one is run on python3. My 
+NOTE: In order to run the following to scripts at the same time, they must be run on different applications since one is run on micropython and one is run on python3. A 
 suggestion would be to use VScode to run the python script and Thonny for the micropython script.
 
 An Adafruit Dashboard and Airtable are also required for these programs to run correctly. The usernames and passwords (keys/tokens,etc.) used for these sites should be your own 
