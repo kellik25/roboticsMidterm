@@ -9,7 +9,7 @@ import mqtt
 #initalize gamepad
 gamepad.digital_setup()
 
-#commented out for security reasons
+#airtable and adafruit information (removed for security)
 adafruit_USER = ""
 adafruit_KEY = ""
 Token_ID = ""
